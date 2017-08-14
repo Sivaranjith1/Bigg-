@@ -2,8 +2,7 @@ import sys
 from PyQt4.QtGui import QApplication
 from PyQt4.QtCore import QUrl
 from PyQt4.QtWebKit import QWebPage
-import bs4 as bs
-import urllib.request
+from urllib import request
 
 class Client(QWebPage):
     def __init__(self, url):
